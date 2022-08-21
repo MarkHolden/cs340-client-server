@@ -10,9 +10,9 @@ I would not use the CRUD Python module in the future unless it were required by 
 
 ### How do you approach a problem as a computer scientist?
 I endeavor to approach every problem by following the Elon Musk Five Step Engineering Process:
-1. Make your requirements less dumb (Requirements must come with a Name, not a department).
+1. Make your requirements less dumb (Requirements must come with a name, not a department).
 2. Try hard to delete the part or process (If you aren't adding back 10% of the time, you aren't deleting enough).
-3. Simplify or optimize (Most common error of a smart engineer is to optimize a thing that does not exist).
+3. Simplify or optimize (Most common error of a smart engineer is to optimize a thing that should not exist).
 4. Accelerate cycle time (Not until after you have done all the others - if you are digging your grave, don't dig it faster, stop digging!).
 5. Automate.
 
