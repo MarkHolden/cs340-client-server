@@ -3,10 +3,10 @@
 At work, I write programs that are maintainable, readable, and adaptable by writing self-documenting code using a test-driven approach. To make the code as adaptable as possible, I endeavor to extract code out into smaller and smaller methods until methods are around the ~4 line mark. From an architectural perspective, one of the previous companies that I worked for was heavily influenced by onion architecture, and I strive to apply that type of architecture and put use domain-driven design to make the code make sense.
 
 ### Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way?
-In my opinion, the repository is actually pretty gross, because there are a ton or checks of different random things in the code the way data is returned from the cursor is nasty.
+In my opinion, the repository is actually pretty gross because there are a ton or checks of different random things in the code. In addition, the way data is returned from the cursor by using a for loop is nasty.
 
 ### How else could you use this CRUD Python module in the future?
-I would not use the CRUD Python module in the future unless it were required by an assignment.
+I would not use the CRUD Python module in the future unless it were required by an assignment. This may just be because I don't have any experience with full stack applications written in Python, but every time I have seen one it is never as clean and simple as a .Net backend. The same is true for Javascript applications. I have seen and worked on front-end applications that elegantly (some more than others) provided a user interface, but when the backend was anything other than .Net the code was invariably poorly architected and hacked together. If I needed to create a repository to access the Animal Shelter database again in the future, I would utilize a MS SQL or PostgreSQL database and .Net repository.
 
 ### How do you approach a problem as a computer scientist?
 I endeavor to approach every problem by following the Elon Musk Five Step Engineering Process:
